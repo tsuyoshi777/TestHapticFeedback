@@ -9,12 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var impactFeedbackButton: UIButton!
+    @IBOutlet weak var selectFeedbackButton: UIButton!
+    @IBOutlet weak var notificationFeedbackButton: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    
+    @IBAction func impactFeedbackButtonTapped(_ sender: Any) {
+    }
+    
+    @IBAction func selectFeedbackButtonTapped(_ sender: Any) {
+    }
+    @IBAction func notificationFeedbackButtonTapped(_ sender: Any) {
+    }
+ 
 }
-
